@@ -43,6 +43,10 @@
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
+          <configuration>
+              <fork>true</fork>
+              <executable>C:\Program Files\OpenJDK\openjdk-8u312-b07\bin\javac</executable>
+          </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
